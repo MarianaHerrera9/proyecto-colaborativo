@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfil Profesional</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .bio {
+      font-size: 16px;
+      color: #333;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://media.istockphoto.com/id/1090878294/es/foto/hombre-de-negocios-conf%C3%ADa-en-joven-en-camisa-azul-profundo-manteniendo-laptop-y-sonriendo-a.jpg?s=612x612&w=0&k=20&c=eK-znEfzKKjeamkWDwe6Gmzbfoi0d1BLqS5ncfMunDY=" alt="Foto de perfil" class="photo">
+    <div class="name">Luis Heriberto Hernández Abraham</div>
+    <div class="bio">
+      Soy un profesional con experiencia en TI area desarrollo de software multiplataforma. He trabajado en proyectos web con frameworks como laravel, next.js etc. Me especializo en desarrollo web y busco seguir desarrollándome en proyectos innovadores.
+    </div>
+  </div>
+
+</body>
+</html>
